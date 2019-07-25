@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Ideathon-android">
+    <output-path>$PROJECT_DIR$/Ideathon/build/libs</output-path>
+    <root id="archive" name="Ideathon-android.jar">
+      <element id="module-output" name="com.github.Khamisov.Ideathon.androidMain" />
+    </root>
+  </artifact>
+</component>

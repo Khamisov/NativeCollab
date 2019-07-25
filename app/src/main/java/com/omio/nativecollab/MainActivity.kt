@@ -2,7 +2,7 @@ package com.omio.nativecollab
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.omio.ideathon.SharedClass
+import com.omio.ideathon.SharedClassImpl
 
 class MainActivity : AppCompatActivity() {
 
@@ -10,6 +10,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        SharedClass.greetings()
+        SharedClassImpl.greetings()
     }
 }
