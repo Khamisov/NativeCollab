@@ -2,7 +2,8 @@ package com.omio.nativecollab
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.omio.ideathon.SharedClassImpl
+import android.widget.Toast
+import com.omio.ideathon.TicketType
 
 class MainActivity : AppCompatActivity() {
 
@@ -10,6 +11,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        SharedClassImpl.greetings()
+        Toast.makeText(this , TicketType.MOBILE.getDisclaimerKey() , Toast.LENGTH_SHORT).show()
     }
 }
