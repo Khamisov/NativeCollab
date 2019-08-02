@@ -1,5 +1,10 @@
 package com.omio.ideathon
 
+expect fun platformName(): String
+
+fun createApplicationScreenMessage() : String {
+    return "Kotlin Rocks on ${platformName()}"
+}
 
 enum class TicketType {
     MOBILE, PRINT, VOUCHER;
